@@ -1,0 +1,17 @@
+{
+  "name": "kafka_tcc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:peer": "tsc ./src/peer/peer.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.7.4",
+    "kafkajs": "^2.1.0",
+    "ip": "1.1.8"
+  }
+}
